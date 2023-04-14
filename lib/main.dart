@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
+        backgroundColor: Colors.green,
         appBar: AppBar(
           title: const Text('Material App Bar'),
         ),
